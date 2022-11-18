@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+/* @import url('http://fonts.cdnfonts.com/css/halimun'); */
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    display: flex;
+    /* margin-top: 6rem; */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
+    background-color: rgb(245,245,245);
+    margin-top: 4rem;
+    border-top: solid .1px rgb(230,230,230);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-container {
+    display: flex;
+    width: 90%;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    color: rgb(176, 19, 14);
+    font-size: 0.8rem;
+}
+.footer-container div a {
+    color: rgb(176, 19, 14);
+    text-decoration: none;
+}
+.footer-container div a span {
+    position: relative;
+    padding-left: .4rem;
+    bottom: .45rem;
+    color: rgb(176, 19, 14);
+    /* font-family: 'Halimun', sans-serif; */
+}
+.footer-container div span {
+    position: relative;
+    padding-left: .4rem;
+    bottom: .45rem;
+    user-select: none;
+    /* font-family: 'Halimun', sans-serif; */
+}
+.footer-container div h2 {
+    user-select: none;
+}
+.footer-container div img {
+    margin-top: .8rem;
+    max-width: 85%;
+    filter: grayscale(70%);
+}
+/* .footer-container div img:hover {
+    filter: grayscale(35%);
+    transition: all 0.1s;
+}
+.footer-container div div:hover span {
+    color: rgb(176, 19, 14);
+}
+.footer-container div div:hover {
+    color: rgb(176, 19, 14);
+}
+.footer-container div div:hover a {
+    color: rgb(176, 19, 14);
+} */
+.footer-container div {
+    width: 18rem;
+}
