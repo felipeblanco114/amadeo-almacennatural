@@ -1,0 +1,58 @@
+header {
+    width: 100%;
+    height: 6rem;
+    background-color: rgba(77, 166, 36, 0.04);
+    color: rgb(176, 19, 14);
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div div {
+    width: 15rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.logo {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -1rem;
+    user-select: none;
+    cursor: pointer;
+}
+header div div p {
+    font-size: 0.9rem;
+    margin: -.6rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.shopping-cart {
+    margin-top: .2rem;
+    position: relative;
+    width: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.number-cart {
+    position: absolute;
+    width: 0.1rem;
+    left: 1.4rem;
+    bottom: .8rem;
+}
