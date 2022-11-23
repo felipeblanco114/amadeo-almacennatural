@@ -14,7 +14,7 @@ const Header = () => {
                 </div>
                 <div className='shopping-cart'>
                     <ShoppingCartOutlinedIcon />
-                    <div className='number-cart'>1</div>
+                    <div className='number-cart'>8</div>
                 </div>
             </div>
             <nav>

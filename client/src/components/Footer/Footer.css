@@ -10,7 +10,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 12rem;
-    background-color: rgb(245,245,245);
+    background-color: rgba(77, 166, 36, 0.04);
     margin-top: 4rem;
     border-top: solid .1px rgb(230,230,230);
     position: absolute;
@@ -58,15 +58,22 @@ footer {
 /* .footer-container div img:hover {
     filter: grayscale(35%);
     transition: all 0.1s;
+} */
+
+/* .footer-container div div a {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
-.footer-container div div:hover span {
-    color: rgb(176, 19, 14);
-}
-.footer-container div div:hover {
-    color: rgb(176, 19, 14);
-}
-.footer-container div div:hover a {
-    color: rgb(176, 19, 14);
+
+
+.footer-container div div a:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
 } */
 .footer-container div {
     width: 18rem;
