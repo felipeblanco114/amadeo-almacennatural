@@ -19,8 +19,8 @@ const Header = () => {
             </div>
             <nav>
                 <ul>
-                    <li>Nosotros</li>
-                    <li>Productos</li>
+                    <li><a href='http://localhost:3000/'>Nosotros</a></li>
+                    <li><a href='http://localhost:3000/'>Productos</a></li>
                 </ul>
             </nav>
         </div>

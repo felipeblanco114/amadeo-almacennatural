@@ -5,8 +5,9 @@
 header {
     width: 100%;
     height: 6rem;
-    background-color: rgba(77, 166, 36, 0.04);
-    color: rgb(176, 19, 14);
+    background-color: rgba(250, 243, 230);
+    /* color: rgb(176, 19, 14); */
+    color: rgb(21, 71, 38);
     display: flex;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
@@ -53,6 +54,42 @@ nav ul li {
     margin: 1rem;
     cursor: pointer;
 }
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(21, 71, 38, 0.9);
+    font-size: 1rem;
+    letter-spacing: 2px;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  nav ul li a:after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      background-color: rgb(21, 71, 38);
+      width: 0;
+      left: 50%;
+      bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      -webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+        transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  nav ul li a:hover {
+      color: rgb(21, 71, 38);
+  }
+  
+  nav ul li a:hover:after {
+      width: 100%;
+  }
 
 .shopping-cart {
     margin-top: .2rem;
