@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './Header.css';
 
 const Header = () => {
+
+    const [cart, setCart] = useState(2);
+
   return (
     <header>
         <div>
@@ -13,8 +16,8 @@ const Header = () => {
                     <p>almacén natural</p>
                 </div>
                 <div className='shopping-cart'>
-                    <ShoppingCartOutlinedIcon />
-                    <div className='number-cart'>8</div>
+                    {!cart ? <ShoppingCartOutlinedIcon /> : <ShoppingCartIcon /> }
+                    <div className='number-cart'>{cart}</div>
                 </div>
             </div>
             <nav>
