@@ -35,7 +35,7 @@ const Footer = () => {
                     <div>
                         <a href='https://www.google.com/maps/place/Urquiza+245,+B7540DME+Coronel+Suarez,+Provincia+de+Buenos+Aires/@-37.4632205,-61.9462746,15z/data=!3m1!4b1!4m2!3m1!1s0x95eb73292df1990d:0xb9a4883e3d96cdca' target='_blank' rel='noreferrer'>
                             <LocationOnIcon style={{ marginTop: '.5rem' }} />
-                            <span style={{ paddingBottom: '.5rem' }} >Coronel Suárez, Buenos Aires</span>
+                            <span style={{ paddingBottom: '.5rem' }} >Urquiza 245, Coronel Suárez</span>
                         </a>
                     </div> 
                 </div>

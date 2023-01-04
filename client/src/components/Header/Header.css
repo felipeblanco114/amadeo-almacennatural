@@ -38,6 +38,10 @@ header div div {
     cursor: pointer;
     font-family: 'Halimun', sans-serif;
 }
+.logo a {
+    text-decoration: none;
+    color:rgb(21, 71, 38);
+}
 .logo h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
@@ -103,4 +107,24 @@ nav ul li a {
     width: 0.1rem;
     left: 1.4rem;
     bottom: .8rem;
+}
+.background-cart {
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(40,40,40,0);
+    position: fixed;
+    z-index: 3;
+    animation-name: cart-animation;
+    animation-duration: .4s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes cart-animation {
+    0% {
+        background-color: rgba(40,40,40,0);
+    }
+    100% {
+        background-color: rgba(40,40,40,0.2);
+    }
 }
